@@ -1,0 +1,597 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6B244CB220CDFD8000751547 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B244CB120CDFD8000751547 /* AppDelegate.m */; };
+		6B244CB520CDFD8000751547 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B244CB420CDFD8000751547 /* ViewController.m */; };
+		6B244CB820CDFD8000751547 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6B244CB620CDFD8000751547 /* Main.storyboard */; };
+		6B244CBA20CDFD8000751547 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6B244CB920CDFD8000751547 /* Assets.xcassets */; };
+		6B244CBD20CDFD8000751547 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6B244CBB20CDFD8000751547 /* LaunchScreen.storyboard */; };
+		6B244CC020CDFD8000751547 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B244CBF20CDFD8000751547 /* main.m */; };
+		6B244CCA20CDFD8000751547 /* DoubleDiaspatchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B244CC920CDFD8000751547 /* DoubleDiaspatchTests.m */; };
+		6B244CD520CDFD8000751547 /* DoubleDiaspatchUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B244CD420CDFD8000751547 /* DoubleDiaspatchUITests.m */; };
+		6B244CEC20CDFF1500751547 /* FlowFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B244CEB20CDFF1500751547 /* FlowFactory.m */; };
+		6B244CEF20CDFF3D00751547 /* ContractFlow.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B244CEE20CDFF3D00751547 /* ContractFlow.m */; };
+		6B244CF220CDFFE700751547 /* LoadingTitle.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B244CF120CDFFE700751547 /* LoadingTitle.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6B244CC620CDFD8000751547 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6B244CA520CDFD8000751547 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6B244CAC20CDFD8000751547;
+			remoteInfo = DoubleDiaspatch;
+		};
+		6B244CD120CDFD8000751547 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6B244CA520CDFD8000751547 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6B244CAC20CDFD8000751547;
+			remoteInfo = DoubleDiaspatch;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6B244CAD20CDFD8000751547 /* DoubleDiaspatch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DoubleDiaspatch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6B244CB020CDFD8000751547 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		6B244CB120CDFD8000751547 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6B244CB320CDFD8000751547 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		6B244CB420CDFD8000751547 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		6B244CB720CDFD8000751547 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6B244CB920CDFD8000751547 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6B244CBC20CDFD8000751547 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6B244CBE20CDFD8000751547 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6B244CBF20CDFD8000751547 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6B244CC520CDFD8000751547 /* DoubleDiaspatchTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DoubleDiaspatchTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6B244CC920CDFD8000751547 /* DoubleDiaspatchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DoubleDiaspatchTests.m; sourceTree = "<group>"; };
+		6B244CCB20CDFD8000751547 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6B244CD020CDFD8000751547 /* DoubleDiaspatchUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DoubleDiaspatchUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6B244CD420CDFD8000751547 /* DoubleDiaspatchUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DoubleDiaspatchUITests.m; sourceTree = "<group>"; };
+		6B244CD620CDFD8000751547 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6B244CE820CDFEBA00751547 /* WordProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WordProtocol.h; sourceTree = "<group>"; };
+		6B244CE920CDFEC600751547 /* FlowProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FlowProtocol.h; sourceTree = "<group>"; };
+		6B244CEA20CDFF1500751547 /* FlowFactory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FlowFactory.h; sourceTree = "<group>"; };
+		6B244CEB20CDFF1500751547 /* FlowFactory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FlowFactory.m; sourceTree = "<group>"; };
+		6B244CED20CDFF3D00751547 /* ContractFlow.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ContractFlow.h; sourceTree = "<group>"; };
+		6B244CEE20CDFF3D00751547 /* ContractFlow.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ContractFlow.m; sourceTree = "<group>"; };
+		6B244CF020CDFFE700751547 /* LoadingTitle.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoadingTitle.h; sourceTree = "<group>"; };
+		6B244CF120CDFFE700751547 /* LoadingTitle.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoadingTitle.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6B244CAA20CDFD8000751547 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6B244CC220CDFD8000751547 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6B244CCD20CDFD8000751547 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6B244CA420CDFD8000751547 = {
+			isa = PBXGroup;
+			children = (
+				6B244CAF20CDFD8000751547 /* DoubleDiaspatch */,
+				6B244CC820CDFD8000751547 /* DoubleDiaspatchTests */,
+				6B244CD320CDFD8000751547 /* DoubleDiaspatchUITests */,
+				6B244CAE20CDFD8000751547 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6B244CAE20CDFD8000751547 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6B244CAD20CDFD8000751547 /* DoubleDiaspatch.app */,
+				6B244CC520CDFD8000751547 /* DoubleDiaspatchTests.xctest */,
+				6B244CD020CDFD8000751547 /* DoubleDiaspatchUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6B244CAF20CDFD8000751547 /* DoubleDiaspatch */ = {
+			isa = PBXGroup;
+			children = (
+				6B244CE220CDFE4600751547 /* Implementation */,
+				6B244CB020CDFD8000751547 /* AppDelegate.h */,
+				6B244CB120CDFD8000751547 /* AppDelegate.m */,
+				6B244CB320CDFD8000751547 /* ViewController.h */,
+				6B244CB420CDFD8000751547 /* ViewController.m */,
+				6B244CB620CDFD8000751547 /* Main.storyboard */,
+				6B244CB920CDFD8000751547 /* Assets.xcassets */,
+				6B244CBB20CDFD8000751547 /* LaunchScreen.storyboard */,
+				6B244CBE20CDFD8000751547 /* Info.plist */,
+				6B244CBF20CDFD8000751547 /* main.m */,
+			);
+			path = DoubleDiaspatch;
+			sourceTree = "<group>";
+		};
+		6B244CC820CDFD8000751547 /* DoubleDiaspatchTests */ = {
+			isa = PBXGroup;
+			children = (
+				6B244CC920CDFD8000751547 /* DoubleDiaspatchTests.m */,
+				6B244CCB20CDFD8000751547 /* Info.plist */,
+			);
+			path = DoubleDiaspatchTests;
+			sourceTree = "<group>";
+		};
+		6B244CD320CDFD8000751547 /* DoubleDiaspatchUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6B244CD420CDFD8000751547 /* DoubleDiaspatchUITests.m */,
+				6B244CD620CDFD8000751547 /* Info.plist */,
+			);
+			path = DoubleDiaspatchUITests;
+			sourceTree = "<group>";
+		};
+		6B244CE220CDFE4600751547 /* Implementation */ = {
+			isa = PBXGroup;
+			children = (
+				6B244CE420CDFE5A00751547 /* Word */,
+				6B244CE320CDFE5400751547 /* Flow */,
+			);
+			path = Implementation;
+			sourceTree = "<group>";
+		};
+		6B244CE320CDFE5400751547 /* Flow */ = {
+			isa = PBXGroup;
+			children = (
+				6B244CE920CDFEC600751547 /* FlowProtocol.h */,
+				6B244CEA20CDFF1500751547 /* FlowFactory.h */,
+				6B244CEB20CDFF1500751547 /* FlowFactory.m */,
+				6B244CED20CDFF3D00751547 /* ContractFlow.h */,
+				6B244CEE20CDFF3D00751547 /* ContractFlow.m */,
+			);
+			path = Flow;
+			sourceTree = "<group>";
+		};
+		6B244CE420CDFE5A00751547 /* Word */ = {
+			isa = PBXGroup;
+			children = (
+				6B244CE820CDFEBA00751547 /* WordProtocol.h */,
+				6B244CF020CDFFE700751547 /* LoadingTitle.h */,
+				6B244CF120CDFFE700751547 /* LoadingTitle.m */,
+			);
+			path = Word;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6B244CAC20CDFD8000751547 /* DoubleDiaspatch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6B244CD920CDFD8000751547 /* Build configuration list for PBXNativeTarget "DoubleDiaspatch" */;
+			buildPhases = (
+				6B244CA920CDFD8000751547 /* Sources */,
+				6B244CAA20CDFD8000751547 /* Frameworks */,
+				6B244CAB20CDFD8000751547 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DoubleDiaspatch;
+			productName = DoubleDiaspatch;
+			productReference = 6B244CAD20CDFD8000751547 /* DoubleDiaspatch.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6B244CC420CDFD8000751547 /* DoubleDiaspatchTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6B244CDC20CDFD8000751547 /* Build configuration list for PBXNativeTarget "DoubleDiaspatchTests" */;
+			buildPhases = (
+				6B244CC120CDFD8000751547 /* Sources */,
+				6B244CC220CDFD8000751547 /* Frameworks */,
+				6B244CC320CDFD8000751547 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6B244CC720CDFD8000751547 /* PBXTargetDependency */,
+			);
+			name = DoubleDiaspatchTests;
+			productName = DoubleDiaspatchTests;
+			productReference = 6B244CC520CDFD8000751547 /* DoubleDiaspatchTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6B244CCF20CDFD8000751547 /* DoubleDiaspatchUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6B244CDF20CDFD8000751547 /* Build configuration list for PBXNativeTarget "DoubleDiaspatchUITests" */;
+			buildPhases = (
+				6B244CCC20CDFD8000751547 /* Sources */,
+				6B244CCD20CDFD8000751547 /* Frameworks */,
+				6B244CCE20CDFD8000751547 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6B244CD220CDFD8000751547 /* PBXTargetDependency */,
+			);
+			name = DoubleDiaspatchUITests;
+			productName = DoubleDiaspatchUITests;
+			productReference = 6B244CD020CDFD8000751547 /* DoubleDiaspatchUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6B244CA520CDFD8000751547 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Josue Hernandez Gonzalez";
+				TargetAttributes = {
+					6B244CAC20CDFD8000751547 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					6B244CC420CDFD8000751547 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 6B244CAC20CDFD8000751547;
+					};
+					6B244CCF20CDFD8000751547 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 6B244CAC20CDFD8000751547;
+					};
+				};
+			};
+			buildConfigurationList = 6B244CA820CDFD8000751547 /* Build configuration list for PBXProject "DoubleDiaspatch" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6B244CA420CDFD8000751547;
+			productRefGroup = 6B244CAE20CDFD8000751547 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6B244CAC20CDFD8000751547 /* DoubleDiaspatch */,
+				6B244CC420CDFD8000751547 /* DoubleDiaspatchTests */,
+				6B244CCF20CDFD8000751547 /* DoubleDiaspatchUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6B244CAB20CDFD8000751547 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B244CBD20CDFD8000751547 /* LaunchScreen.storyboard in Resources */,
+				6B244CBA20CDFD8000751547 /* Assets.xcassets in Resources */,
+				6B244CB820CDFD8000751547 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6B244CC320CDFD8000751547 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6B244CCE20CDFD8000751547 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6B244CA920CDFD8000751547 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B244CEC20CDFF1500751547 /* FlowFactory.m in Sources */,
+				6B244CB520CDFD8000751547 /* ViewController.m in Sources */,
+				6B244CC020CDFD8000751547 /* main.m in Sources */,
+				6B244CF220CDFFE700751547 /* LoadingTitle.m in Sources */,
+				6B244CEF20CDFF3D00751547 /* ContractFlow.m in Sources */,
+				6B244CB220CDFD8000751547 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6B244CC120CDFD8000751547 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B244CCA20CDFD8000751547 /* DoubleDiaspatchTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6B244CCC20CDFD8000751547 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B244CD520CDFD8000751547 /* DoubleDiaspatchUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6B244CC720CDFD8000751547 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6B244CAC20CDFD8000751547 /* DoubleDiaspatch */;
+			targetProxy = 6B244CC620CDFD8000751547 /* PBXContainerItemProxy */;
+		};
+		6B244CD220CDFD8000751547 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6B244CAC20CDFD8000751547 /* DoubleDiaspatch */;
+			targetProxy = 6B244CD120CDFD8000751547 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6B244CB620CDFD8000751547 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6B244CB720CDFD8000751547 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6B244CBB20CDFD8000751547 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6B244CBC20CDFD8000751547 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6B244CD720CDFD8000751547 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		6B244CD820CDFD8000751547 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6B244CDA20CDFD8000751547 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DoubleDiaspatch/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jghg.DoubleDiaspatch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6B244CDB20CDFD8000751547 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DoubleDiaspatch/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jghg.DoubleDiaspatch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		6B244CDD20CDFD8000751547 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DoubleDiaspatchTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jghg.DoubleDiaspatchTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DoubleDiaspatch.app/DoubleDiaspatch";
+			};
+			name = Debug;
+		};
+		6B244CDE20CDFD8000751547 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DoubleDiaspatchTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jghg.DoubleDiaspatchTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DoubleDiaspatch.app/DoubleDiaspatch";
+			};
+			name = Release;
+		};
+		6B244CE020CDFD8000751547 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DoubleDiaspatchUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jghg.DoubleDiaspatchUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DoubleDiaspatch;
+			};
+			name = Debug;
+		};
+		6B244CE120CDFD8000751547 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DoubleDiaspatchUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jghg.DoubleDiaspatchUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DoubleDiaspatch;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6B244CA820CDFD8000751547 /* Build configuration list for PBXProject "DoubleDiaspatch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6B244CD720CDFD8000751547 /* Debug */,
+				6B244CD820CDFD8000751547 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6B244CD920CDFD8000751547 /* Build configuration list for PBXNativeTarget "DoubleDiaspatch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6B244CDA20CDFD8000751547 /* Debug */,
+				6B244CDB20CDFD8000751547 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6B244CDC20CDFD8000751547 /* Build configuration list for PBXNativeTarget "DoubleDiaspatchTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6B244CDD20CDFD8000751547 /* Debug */,
+				6B244CDE20CDFD8000751547 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6B244CDF20CDFD8000751547 /* Build configuration list for PBXNativeTarget "DoubleDiaspatchUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6B244CE020CDFD8000751547 /* Debug */,
+				6B244CE120CDFD8000751547 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6B244CA520CDFD8000751547 /* Project object */;
+}
