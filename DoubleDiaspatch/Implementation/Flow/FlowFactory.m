@@ -11,12 +11,14 @@
 
 @implementation FlowFactory
 
+static NSString *const kContractClass = @"ContractFlow";
+
 + (id)initWithFlowType:(NSString *)flow
 {
     NSDictionary *data = @{
-                           @"xxx" : [[ContractFlow alloc] init]
+                           @"xxx" : kContractClass
                         };
-    return [data objectForKey:flow];
+    return [[NSClassFromString([data objectForKey:flow]) alloc] init];
 }
 
 @end
